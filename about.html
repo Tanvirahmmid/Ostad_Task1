@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Versity Website by Tanvir</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,500;1,100;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"/>
+
+    </head>
+    <body>
+        <section class="subheader">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="reg.html">Registration</a></li>
+                        <li><a href="about.html">About</a></li>
+                     
+                        
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+           <h1>About Us</h1>
+        </section>
+
+
+        <section class="aboutus">
+            <div class="row">
+                <div class="about-xd">
+                    <h1>Student Login System</h1>
+                    <p>Made by Tanvir</p>
+                    <a href="reg.html" class="btn1 red-btn">Registration</a>
+                </div>
+            <div class="about-xd">
+                <img src="images/about.jpg">
+            </div>
+
+            </div>
+
+        </section>
+
+
+        
+
+
+
+
+
+
+
+
+        
+        <!-----Footer-->
+
+        <section class="footer"> 
+            <h4>About US</h4>
+            <p>We are the world's largest university and our vision is make our student world leader.</p>
+
+            <div class="icon">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-facebook"></i>
+            </div>
+            <p>Made By Tanvir</p>
+
+        </section>
+
+
+
+
+
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>
